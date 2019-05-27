@@ -4,7 +4,7 @@ public class Shelter {
     private String name;
     private String address;
 
-    public Shelter() {
+    public Shelter(String питомник, String s, String оо, String лтолт) {
     }
 
 

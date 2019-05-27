@@ -35,22 +35,19 @@ public class Dog extends Pet {
         this.commands = commands;
     }
 
-    public Dog(String бим, String овчарка, Color GRAY, Shelter shelter, String[] commands) {
-    }
-
-    public Dog(String рекс, String хаски, Color white, Shelter shelter) {
+    public Dog(String name, String breed, Color white, Shelter shelter) {
         this.name = name;
         this.breed = breed;
         setColor(color);
-        setShelter(this.shelter);
+        setShelter(shelter);
     }
 
-    public Dog(String name,String breed,String color, Shelter shetler, String [] commands ) {
+    public Dog(String name,String breed ,Color color, Shelter shetler, String [] commands ) {
         this.name = name;
         this.breed = breed;
         this.shelter = shetler;
-        this.commands = commands
-        ;
+        this.commands = commands;
+        setColor(color);
     }
 
     public void makeVoice(){
